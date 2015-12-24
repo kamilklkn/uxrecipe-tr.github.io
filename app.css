@@ -1,0 +1,609 @@
+/*adding new font*/
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic);
+
+/* OPEN MEDIA SCREEN */
+@media screen {
+
+
+
+/*modifying the icon size*/
+.fa {
+	font-size: 16px;
+	margin-left: -5px;
+	margin-right: 4px;
+}
+
+/*modifying the checkbox label*/
+.labelautyLabel {
+	font-size: 14px;
+	font-weight: 300;
+}
+
+/*fixing checkbox width bug*/
+label, .labelauty-unchecked, .labeluaty-checked {
+	width: 100% !important;
+}
+
+
+/*hiding the table*/
+.toggled-off {
+	display: none;
+}
+
+/*arranging the coin radio bullets*/
+.coin {
+	margin-right: 5px;
+	padding-left: 3px;
+}
+
+/*separating the checkbox blocks*/
+.row .col-md-8 .col-md-3{
+	margin-top: 15px;
+}
+
+/*modifying text color*/
+h2, h3, h4, h5, h6, p, label, li {
+	color: #727272;
+	font-family: Roboto;
+}
+
+/*modal h2 left */
+.sweet-alert h2 {
+	text-align: left;
+}
+
+/*separating the title blocks*/
+.titleRow div {
+	display: block;
+	margin-top: 30px;
+	margin-bottom: -15px;
+}
+
+
+/*spacing the second new row*/
+.titleRow2 .col-md-3 {
+	display: block;
+	margin-top: 5px !important;
+}
+
+/*modifying the tags*/
+h5 em {
+	font-weight: 300;
+	/*background: #EAF4FF;*/
+	text-decoration: underline;
+	margin-left: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+
+/*setting up the background*/
+html, .container-fluid{
+	background: #F2F4F6;
+	background-image: url('img/pattern.png');
+	background-repeat: repeat-x;
+}
+
+/*center logo*/
+#uxlogo img{
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+#uxlogo h3, h4, p {
+	text-align: center;
+	margin: 0 auto;
+}
+
+#uxlogo {
+	text-align: center;
+}
+
+/*customize buttons*/
+#uxlogo a, button.confirm {
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 50px;
+	padding: 15px;
+	border: none;
+	border-radius: 3px;
+	font-size: 16px;
+	background: #4F3C48 !important;
+	color: rgba(255,255,255, .9);
+	   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+
+button.confirm {
+	margin-left: 0px;
+	margin-bottom: 20px;
+}
+
+#uxlogo p {
+	margin-top: -50px;
+	margin-bottom: 40px;
+}
+
+.btn-ux {
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 50px;
+	padding: 10px;
+	border: none;
+	border-radius: 3px;
+	font-size: 12px;
+	background: #B3B3B3;
+	color: #ffffff;
+	margin-left: 5px;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+}
+
+.btn-ux-danger {
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 50px;
+	padding: 10px;
+	border: none;
+	border-radius: 3px;
+	font-size: 12px;
+	background: #FF9800;
+	color: #ffffff;
+	margin-left: 5px;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+}
+
+.btn-ux-danger:hover{
+	background: #FF9800;	
+}
+
+.btn-ux-reset {
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 50px;
+	padding: 10px;
+	border: none;
+	border-radius: 3px;
+	font-size: 12px;
+	background: #F44336;
+	color: #ffffff;
+	margin-left: 5px;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+}
+
+
+p small {
+	font-size: 10px;
+	margin-top: -30px;
+}
+
+#uxlogo h3{
+	line-height: 35px;
+}
+
+#uxlogo h4 {
+	line-height: 28px;
+	margin-bottom: 0px;
+}
+
+#uxlogo a:hover, #uxlogo a:focus, #uxlogo a:visited, button.confirm:hover{
+	background: #4F3C48;
+	color: #fff;
+	opacity: .8 !important;
+}
+
+
+
+a.btn-ux:hover, a.btn-ux:visited, a.btn-ux:focus {
+	background: #72686F;
+	opacity: .8;
+}
+
+
+
+
+/*no spin buttons on number inputs*/
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+}
+
+
+/*customize radio input */
+th .labelauty-checked, th .labelauty-unchecked {
+	padding: 3px;
+	border-radius: 0px !important;
+}
+
+th .labelauty-unchecked {
+	background: white;
+	color: #727272;
+}
+th input.labelauty:checked + label {
+	background-color: #4F3C48;
+	border-radius: 0px;
+}
+
+th input.labelauty:checked:not([disabled]) + label:hover {
+	background-color: #72686F;
+}
+
+
+/*customizing hashtag links*/
+
+h5 a {
+	color: #FF443A;
+		   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+
+h5 a:hover, h5 a:visited, h5 a:focus {
+	color: #FF443A;
+	opacity: .7;
+}
+
+/* customize title text em */
+h3 em {
+	font-weight: 200;
+}
+/*customizing checkboxes with new colors */
+.blueColored input.labelauty:checked:not([disabled]) + label:hover {
+	background-color: #448AFF;
+}
+
+.blueColored input.labelauty:checked + label {
+	background-color: #1976D2;
+}
+
+.tealColored input.labelauty:checked:not([disabled]) + label:hover {
+	background-color: #009688;
+}
+
+.tealColored input.labelauty:checked + label {
+	background-color: #00796B;
+}
+
+.greenColored input.labelauty:checked:not([disabled]) + label:hover {
+	background-color: #4CAF50;
+}
+
+.greenColored input.labelauty:checked + label {
+	background-color: #388E3C;
+}
+
+.orangeColored input.labelauty:checked:not([disabled]) + label:hover {
+	background-color: #FF5722;
+}
+
+.orangeColored input.labelauty:checked + label {
+	background-color: #E64A19;
+}
+
+.purpleColored input.labelauty:checked:not([disabled]) + label:hover {
+	background-color: #9C27B0;
+}
+
+.purpleColored input.labelauty:checked + label {
+	background-color: #7B1FA2;
+}
+
+.goldColored input.labelauty:checked:not([disabled]) + label:hover {
+	background-color: #FFC107;
+}
+
+.goldColored input.labelauty:checked + label {
+	background-color: #FBC02D;
+}
+
+
+/* footer */
+#footer {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+
+/*customizing the conclusin*/
+#conclusion {
+	padding: 20px;
+	display: none;
+	margin-top: -40px;
+
+}
+
+#conclusion-content{
+	text-align: left;
+	font-size: 14px;
+	line-height: 16px;
+	color: #fff;
+	background: #4CAF50;
+	display: block;
+	padding:10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.conclusion {
+	font-weight: 600;
+	color: #000;
+	display: inline-block;
+	padding-top: 10px;
+
+}
+
+.heading {
+	font-size: 18px;
+	line-height: 32px;
+}
+
+
+/* Customizing the footer notes and contents*/
+.acknow {
+	background: #fff;
+	min-height: 180px;
+}
+
+.acknow p{
+	text-align: left;
+	margin-bottom: 10px;
+}
+
+.acknow img{
+	text-align: center;
+	margin: 0 auto;
+	padding: 5px;
+}
+
+.acknow h3 {
+	padding-top: 20px;
+}
+
+#acknowledgementspart1 {
+	background: #fff;
+	margin-top: 50px;
+}
+
+#acknowledgementspart2 {
+	background: #fff;
+}
+
+#acknowledgementspart2 .col-md-12{
+	padding-top: 10px;
+	margin-bottom: 10px;
+	padding-bottom: 20px;
+}
+
+ul li {
+    /* Text color */
+    list-style-type: none;
+    margin-left: -20px;
+}
+
+ul li:before {
+    /* Unicode bullet symbol */
+    content: '\2022 ';
+    /* Bullet color */
+    font-size: 16px;
+    color: #E67872;
+    padding-right: 0.5em;
+}
+
+a > .label {
+	display: inline-block;
+	background: #B3B3B3;
+	border-radius: 3px;
+	font-weight: 400;
+	font-size: 14px;
+	margin-bottom: 10px;
+	padding: 10px;
+	  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+}
+
+a:hover > .label {
+	opacity: .7;
+}
+
+#hint {
+	color: #727272;
+	font-family: Roboto;
+	display: block;
+	margin-top: 10px;
+	padding: 10px;
+	background: #fff;
+}
+
+.estimate {
+	margin-top: 20px;
+}
+
+/* Print button */
+
+.print-me {
+	margin-left: 0px;
+	border-radius: 3px;
+	background: #4F3C48;
+}
+
+.calculate-me {
+	margin-left: 0px;
+	border-radius: 3px;
+	background: #4F3C48;
+}
+
+a.print-me:hover {
+	background: #4F3C48;
+}
+
+.fa-print, .fa-file-image-o {
+	margin-left: 0px;
+}
+
+
+
+/* popover */
+.fa-info-circle {
+	color: #A5B7BA;
+}
+
+.popover {
+	background:#BCC9CC;
+	color: #fff;
+	border: none;
+}
+
+.popover.top > .arrow {
+  border-top-color: #BCC9CC;
+}
+.popover.top > .arrow:after {
+
+  border-top-color: #BCC9CC;
+}
+
+
+/* Modifications to calculator controls */
+.fa-calculator, .fa-power-off, .fa-times {
+	margin-left: 3px;
+}
+
+a[href="#conclusion"] {
+	margin-left: 5px;
+}
+
+/* CLOSE MEDIA SCREEN */
+}
+
+/*responsive logo fix*/
+@media screen and (min-width: 900px) {
+	#logo img{
+		width: 30%;
+	}
+} 
+
+@media screen and (max-width: 900px) {
+	.titleRow2 .col-md-3 {
+		display: block;
+		margin-top: 15px !important;
+	}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1270px) {
+	.btn-ux-reset {
+		margin-top: -38px;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.btn-ux-reset {
+		margin-top: -38px;
+	}
+		.repair-btn{
+		margin-left: 0px !important;
+	}
+}
+
+@media screen and (max-width: 399px) {
+	.repair-btn{
+		margin-top: -40px !important;
+	}
+}
+
+/* MEDIA PRINT QUERIES */
+@media print {
+	#uxlogo h3, #uxlogo h4, 
+	#uxlogo a, #uxlogo p, #getstarted, 
+	#acknowledgementspart1, #acknowledgementspart2,
+	.calculate-me, .btn-ux-danger, .btn-ux-reset, #hint, .print-me,
+	#ux-calculator h5 {
+		display:none;
+	}
+
+	#uxlogo img {
+		width: 40%;
+		text-align: center !important;
+		margin: 0 auto !important;
+	}
+
+	#ux-calculator h3 {
+		text-align: center;
+		margin-bottom: 30px;
+	}
+
+	#conclusion p {
+		display: block;
+		width: 50%;
+		text-align: center;
+		margin:0 auto;
+		margin-top: 20px;
+	}
+
+	#footer {
+		margin-top: 50px;
+		text-align: center;
+	}
+
+	#subscribe {
+		display:none;
+	}
+
+}
+
+#mc_embed_signup {
+	margin: 0 auto;
+	background: none !important;
+}
+
+#mce-EMAIL {
+	display: inline;
+	float: left;
+}
+
+#mc_embed_signup input.button {
+	display: inline !important;
+}
+
+#mc_embed_signup input {
+	border-radius: 5px;
+}
+
+/* thanks */
+#thanks {
+	margin-top: 50px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.supporters {
+	text-align: center;
+}
+
+.supporters img {
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	margin: 0 auto;
+	-webkit-filter: grayscale(100%); 
+	filter: grayscale(100%);
+	opacity: .5;
+	transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+}
+
+.supporters img:hover {
+	-webkit-filter: grayscale(0%); 
+	filter: grayscale(0%);
+	opacity: 1;	
+}
